@@ -39,6 +39,8 @@ Example 2 : Get all elements
 $cats = new Categories();
 $categories = $cats->getAll();
 ```
+  
+
 
 ## Next steps
 
