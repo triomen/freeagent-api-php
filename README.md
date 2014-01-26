@@ -39,7 +39,16 @@ Example 2 : Get all elements
 $cats = new Categories();
 $categories = $cats->getAll();
 ```
-  
+
+```php
+$i = new Invoices();
+$is = $i->getAll();
+foreach($is as $i)
+{
+    // $i is an Invoice object 
+	$contact = $i->getContact();
+}
+```
 ## Extend
 
 TODO. Talk about "model/Base.php" & "Manager.php"
