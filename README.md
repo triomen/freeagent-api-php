@@ -1,4 +1,4 @@
-freeagent-api-php - v0.1
+FreeAgent Readonly PHP Wrapper - v0.1
 ========================
 
 ## Description
@@ -40,7 +40,9 @@ $cats = new Categories();
 $categories = $cats->getAll();
 ```
   
+## Extend
 
+TODO. Talk about "model/Base.php" & "Manager.php"
 
 ## Next steps
 
